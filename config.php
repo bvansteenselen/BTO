@@ -3,7 +3,7 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $input = json_decode(file_get_contents('php://input'), true);
     
-    $correcteCode = "3771";
+    $correcteCode = "3772";
     $doelLocatie = "http://10.170.28.142";
 
     if (isset($input['code']) && $input['code'] === $correcteCode) {
